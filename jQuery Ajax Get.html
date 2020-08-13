@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Ajax Get</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  </head>
+  <body style='text-align:center'>
+    <h1>Loading a web page into a DIV</h1>
+    <div id='info'>This sentence will be replaced</div>
+    <script>
+      $.get('urlget.php?url=naver.com', function(data)
+    {
+      $('#info').html(data)
+    })
+  </script>
+  </body>
+</html>

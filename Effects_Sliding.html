@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Effects: Sliding</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+  <button id='slideup'>slideup</button>
+  <button id='slidedown'>slidedown</button>
+  <button id='slidetoggle'>slideToggle</button>
+
+  <div id='para' style='background:#def'>
+    <h2>~~~~~~~~~~~~~~~~~~~~~~~~~anyway~~~~~~~~~~~~~~~~~~~~~~~~</h2>
+    <p>~@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    wiaefjwaefjoiwaefjoiawejfioawejfoiwaejfoiawejfoiwejafoiwaejfioj
+  awoipefjioawjoiwgjoiawrgjoiawrjgoiawjgiowajrgoiwjargoiwragjoiwargj
+aiowergjoireagjoiarwegjoiaergjioaerjgoiergjiogjersoigjersoigjoiesrgjesirog
+oipregjoiergjoiesrgjoiesrgjioesrgjoisergjoiersjgioersjgoiesrjgoiesrgjersig
+iresogjoesirgjoiesrgjoiesrgjoesigjoisergjoisergjiosergjiosergjoserigjoisergj
+iojsergoijseroigjseroigjseroigjseirogjseorigjoseirgjoiserjgoisejrgoiseijo
+awefijwaefiojawefoijwaeoifjaweoifjroiagjoifsgbhjgbsoihgbhbodsrbhr;bobhdbih;dbh;
+oeisbseboijsbeoijseboijsboijsboijstboisbjiosgfbjib;jb;jbo;jgb;gbj;bj;gbj;gfbj;bjgf
+iojgoiarjoigrjoirejoigiorejgoijresgoijesrgoijrseiogjersiogjoiresgjseroigjoiersgj
+igsjoisgjoistgjiosegjoisejrgoisejrgoijseroigjesroigjseroigjesroigjsoeirgjoiresgj
+sigjsoiergjoisergjoiserjgoisejrgoijergioejrgoiserjgoisejrgoijsergoiserjgoisrejg</p>
+  </div>
+  <script>
+  $('#slideup') .click(function() {$('#para') .slideUp('slow')})
+  $('#slidedown') .click(function() {$('#para') .slideDown('slow')})
+  $('#slidetoggle') .click(function() {$('#para') .slideToggle('slow')})
+  </script>
+  </body>
+</html>

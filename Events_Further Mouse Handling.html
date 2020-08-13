@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Events: Further Mouse Handling</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <h2 id='test'>Pass the mouse over me</h2>
+    <script>
+      $('#test') .mouseenter(function() {$(this) .html('hey stop')})
+      $('#test') .mouseleave(function() {$(this) .html('where did you go')})
+    </script>
+  </body>
+</html>
